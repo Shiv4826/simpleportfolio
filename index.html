@@ -1,0 +1,1170 @@
+
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Shivam Kumar</title>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+    </script>
+    <style>
+         html{
+            scroll-behavior: smooth;
+         }
+         #navbar{
+            scroll-behavior: smooth;
+         }
+        .outer-container{
+            margin:0;
+            padding:0;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-sizing: border-box;
+
+        }
+        .navbar-section{
+        text-align: center;
+      font-size: 35px;
+      letter-spacing: 2px;
+      background: 
+#F4A896;
+      position: sticky;
+      top:0px;
+      box-shadow: 0px 0px 5px 5px gray;
+      
+
+     
+        }
+        a{
+            text-decoration: none;
+            color:lightgreen;
+        }
+        a:active{
+            color:red;
+        }
+        .intro-text{
+            font-size: 60px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            line-height: 150px;
+            position: sticky;
+            background: linear-gradient(white);
+ 
+    z-index: -1;
+        }
+        .img{
+            width: 800px;
+            height: 1500px;
+    position: sticky;
+    top:0px;
+    z-index: -1;
+    margin-left: -10px;
+    margin-top:500px;
+    box-shadow: 0px 0px 50px 40px gray;
+            
+        }
+        .img:hover{
+            cursor: pointer;
+            transform:scalex(1);
+        }
+       
+      .h1{
+        font-size: 200px;
+        margin-left: 850px;
+        margin-top:-1200px;
+        letter-spacing: 8px;
+   
+      }
+      .p{
+        margin-top:500px;
+        margin-left:50px;
+      }
+        .intro-section{
+            margin-top: -500px;
+        }
+        #condition{
+            margin-left: 615px;
+            font-size: 150px;
+        }
+        .back-to-top-btn{
+            margin-left:1430px;
+           
+        }
+        body{
+            background: linear-gradient(white,purple,cyan,white);
+
+            overflow-x:hidden;
+        }
+        .h2{
+            font-size: 50px;
+        }
+        .me{
+            font-size:40px;
+            font-family:fantasy;
+            animation: me 2s linear infinite;
+            width: 500px;
+           
+            background-color: red;
+      
+            animation-direction: alternate-reverse;
+            margin-left:0px;
+            animation-delay: 2s;
+            box-shadow: 0px 0px 5px 5px black;
+            margin-top:50px;
+           
+        }
+        @keyframes me{
+            from{
+                width:800px;
+             
+                background-color: red;
+           
+                margin-left: 0px;
+
+            }
+            to{
+                
+                width:600px;
+                background-color: aquamarine;
+            border-radius: 25%;
+                margin-left: 500px;
+
+            }
+        }
+        .skills-section{
+            margin-top:10px;
+            
+        
+            width:100%;
+            height: 350px;
+        }
+        .img-holder1{
+            width:200px;
+            height: 200px;
+            float: left;
+            margin-left:500px;
+           
+        }
+        .img-holder2{
+            width:200px;
+            height: 200px;
+            float: left;
+        }
+        .img-holder3{
+            width:200px;
+            height: 200px;
+            float: left;
+        }
+    .skill{
+        margin-left: 600px;
+    }
+    .p1{
+        margin-left:70px;
+    }
+ .img-holder1:hover{
+    cursor:auto;
+     transform: rotateZ(50deg);
+
+ }
+ .img-holder2:hover{
+    cursor: auto;
+    transform: rotateZ(50deg);
+    
+ }
+ .img-holder3:hover{
+    cursor: auto;
+    transform: rotateZ(50deg);
+ }
+ .projects-section{
+    background:linear-gradient(pink,white);
+    width:100%;
+    height:100%;
+ 
+
+
+ }
+ .projects-container{
+    padding: 10px;
+ 
+    
+ }
+ .project{
+    margin-left:600px;
+ }
+ .row1{
+    padding:15px;
+  
+    height: 650px;
+    background: linear-gradient(white,gray);
+    box-shadow: 0px 0px 8px 10px black;
+ }
+ .proj1-laptop{
+    width: 870px;
+    height: 650px;
+    float: left;
+    margin-top:-16px;
+    margin-left:-45px;
+    box-shadow: 0px 0px 8px 8px black;
+
+ }
+ .col2{
+    margin-left:50px;
+    float: left;
+    margin-top:100px;
+    
+ }
+ .L{
+    font-size:50px;
+ }
+ .btn:hover{
+    background: red;
+
+ }
+ .btn1:hover{
+    background: red;
+
+ }
+ .proj2-laptop{
+    width: 870px;
+    height: 650px;
+    float: left;
+    margin-top:-113px;
+    margin-left:-75px;
+    box-shadow: 0px 0px 8px 8px black;
+
+
+ }
+ .col3{
+    margin-left:50px;
+    float: left;
+    margin-top:100px;
+    
+ }
+ .row2{
+    padding:15px;
+    margin-left:-20px;
+  margin-top:-50px;
+    height: 650px;
+    background: linear-gradient(white,gray);
+    box-shadow: 0px 0px 8px 10px black;
+ }
+ .col4{
+    margin-left:50px;
+    float: left;
+    margin-top:130px;
+    
+ }
+
+ .row3{
+    padding:15px;
+    margin-top:-9px;
+    margin-left:-16px;
+    height: 350px;
+    background: linear-gradient(white,gray);
+    box-shadow: 0px 0px 8px 8px black;
+ }
+ .contact-section{
+   
+   
+    height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .lets{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left:550px;
+    margin-top:30px;
+    text-shadow: 0px 0px 5px gray;
+
+ }
+ .row_{
+  
+    height: 130px;
+    width: 1500px;
+    float: left;
+ }
+ 
+ .info-box{
+    float: left;
+    font-size: 20px;
+    margin-top: 80px;
+
+ }
+ .git{
+    width: 50px;
+    height: 35px;
+ 
+ }
+ .git:hover{
+    border-radius:10%;
+ }
+ .col_{
+    margin-left:350px;
+ }
+
+ .back-to-top-btn {
+    position: fixed;
+    right: 3vw;
+    bottom: 1em;
+    visibility: visible;
+    z-index: 1;
+}
+
+.back-to-top-btn:hover{
+    background-color : rgb(85, 25, 25);
+    border-radius : 5px;
+}
+
+#myBtn{
+    display: block;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+.about-section {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    top:0;
+}
+
+.about-section .about-container{
+    background-color: whitesmoke;
+}
+
+.about-section .about-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 45em;
+}
+
+.about-section .about-container .row {
+    width: 50%;
+    position: absolute;
+}
+
+.about-container .about-me-snippet{
+    position: absolute;
+ 
+}
+
+.about-container #about-div-animate{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      background-color: rgb(77, 136, 204);
+    }
+    50% {
+      background-color: rgb(233, 184, 94);
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    90% {
+      transform: translate(-150px, 0);
+    }
+  }
+
+.about-section .about-container .row .col p{
+    font-size: 1.5em;
+}
+
+.about-section .about-container .row #swipe-text{
+    display:block;
+    font-size: 1.5em;
+}
+
+.about-section .about-container a img{
+    width: 4em;
+    height: auto;
+}
+
+.about-section .about-container a{
+    text-decoration: none;
+    color : black;
+}
+.h2{
+    margin-top: -300px;
+}
+.col-{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.img{
+    border-radius: 2%;
+   transform: rotateY(200deg);
+    display: flex;
+    margin-left: -50px;
+}
+.git:hover{
+    transform: scale(2.7);
+    
+ }
+ 
+ .h6{
+    margin-top:26px;
+ }
+
+
+
+
+
+
+
+@media only screen and  (max-width: 510px){
+
+    .outer-container{
+           width: 270%;
+           height:100%;
+           
+
+        }
+        .roW{
+            width:100%;
+            font-size:15px;
+            margin-left:-10px;
+            position: sticky;
+            top:0;
+            
+        }
+        
+        .navbar-container{
+            width:100%;
+            box-shadow: 0px 0px 5px 15px black;
+            
+          
+
+        }
+    .row{
+        font-size: 15px;
+    }
+    .img{
+        width: 740px;
+        height: 720px;
+        border-radius: 2%;
+    }
+    .intro-text{
+        width: 100%;
+        height: 50%;
+       
+        margin-left:2px;
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: 0px 0px 5px gray;
+       
+    }
+    .h1{
+        margin-left:2px;
+        font-size: 50px;
+        margin-top:20px;
+    }
+    .p{
+        font-size:55px;
+        margin-top:50px;
+       
+    }
+    #condition{
+        margin-left:-15px;
+        text-shadow: 0px 0px 10px black;
+        font-size: 142px;
+    }
+    .about-section {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    top:0;
+}
+
+.about-section .about-container{
+    background-color: whitesmoke;
+    width:102%;
+    box-shadow: 0px 0px 5px 18px white;
+}
+.about-section .about-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60em;
+}
+
+.about-section .about-container .row {
+    width: 100%;
+    position: absolute;
+}
+
+.about-container .about-me-snippet{
+    position: absolute;
+ 
+}
+.about-container #about-div-animate{
+    height: 700px;
+    width: 700px;
+    background-color: red;
+    animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes pulse {
+    0%, 100% {
+      background:linear-gradient(cyan,white);
+    }
+    50% {
+      background:linear-gradient(red,green);
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    90% {
+      transform: translate(-150px, 0);
+    }
+  }
+  .about-section .about-container .row #swipe-text{
+    display:none;
+    font-size: 1.5em;
+}
+.h2{
+    margin-top:50px;
+    margin-left:25px;
+    text-shadow: 0px 0px 5px black;
+}
+.skills-section{
+            margin-top:60px;
+            
+        
+            width:100%;
+            height: 550px;
+        }
+        .skill{
+        margin-left:150px;
+        margin-top:-30px;
+        font-size: 35px;
+        text-shadow: 0px 10px 4px black;
+    }
+
+    .img-holder1{
+            width:100px;
+            height: 100px;
+            float: left;
+            margin-left:10px;
+            margin-top:30px;
+         
+            
+            
+
+           
+        }
+        .img-holder2{
+            width:200px;
+            height: 200px;
+            float: left;
+            margin-left:50px;
+            margin-top:180px;
+        }
+        .img-holder3{
+            width:200px;
+            height: 200px;
+            float: left;
+            margin-left:50px;
+        }
+        .p1{
+            margin-left:30px;
+        }
+        .project{
+            margin-top:-10px;
+            margin-left:180px;
+        }
+        .projects-section{
+    background:linear-gradient(pink,white);
+    width:100%;
+    height:100%;
+    box-shadow: 0px 0px 5px 20px black;
+ 
+
+
+ }
+        .row1{
+    padding:15px;
+
+    height: 500px;
+    
+    background: linear-gradient(white,gray);
+    box-shadow: 0px 0px 8px 10px black;
+ }
+ .proj1-laptop{
+    width: 110%;
+    height: 650px;
+    float: left;
+    margin-top:-33px;
+    margin-left:-35px;
+    box-shadow: 0px 0px 8px 8px black;
+
+ }
+ .col2{
+    margin-left:50px;
+    float: left;
+    margin-top:180px;
+    height:1950px;
+
+
+    
+ }
+ .L{
+    font-size:30px;
+    margin-top:-100px;
+    font-size: bold;
+  
+ }
+ .row2{
+     padding:15px;
+  
+    height: 1100px;
+    background: linear-gradient(white,gray);
+    box-shadow: 0px 0px 8px 10px black;
+ }
+ .proj2-laptop{
+     width: 110%;
+    height: 650px;
+    float: left;
+    margin-top:-1870px;
+    margin-left:-55px;
+    box-shadow: 0px 0px 8px 8px black;
+
+
+ }
+ .col4{
+    margin-left:105px;
+    float: left;
+    margin-top:-1050px;
+    height:10px;
+
+    
+ }
+ .E,.D{
+    
+    font-size:15px;
+
+
+    display: none;
+   
+ }
+
+ .btn1{
+    display: none;
+ }
+ .S,.B{
+    display: none;
+ }
+ .lets{
+    margin-left:360px;
+    position:absolute;
+    margin-top:190px;
+    top:4;
+ }
+ .row_{
+  
+  height: 500px;
+  width: 100%;
+  float: left;
+
+  margin-top:-50px;
+}
+.info-box{
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+
+ }
+ .col_{
+    margin-top:-500px;
+    line-height:380px;
+    
+    
+    
+ }
+ 
+ .h6{
+margin-top:-180px;
+display:none;
+ }
+ .git{
+    height: 150px;
+    width:150px;
+ }
+ .git:hover{
+    transform: scale(0.7);
+    border-radius: 10%;
+    
+ }
+ 
+ 
+
+
+}
+
+@media only screen and  (min-width: 500px){
+
+    .outer-container{
+           width: 480%;
+           height:100%;
+           
+
+        }
+        .roW{
+            width:100%;
+            font-size:40px;
+            margin-left:0px;
+            position: sticky;
+            top:0;
+            line-height: 50px;
+            
+       
+        }
+        body{
+            overflow-x: scroll;
+        }
+        .intro-text{
+            margin-top:182px;
+        }
+        .navbar-container{
+            width:100%;
+            box-shadow: 0px 0px 5px 15px black;
+            
+          
+
+        }
+        .about-section .about-container{
+    background-color: whitesmoke;
+    width:100%;
+    box-shadow: 0px 0px 5px 15px whitesmoke;
+}
+.projects-section{
+    background:linear-gradient(pink,white);
+    width:100%;
+    height:100%;
+    box-shadow: 0px 0px 5px 20px black;
+}
+.col2{
+    margin-left:320px;
+    float: left;
+    margin-top:80px;
+    height:2250px;
+  
+
+    
+ }
+ .proj2-laptop{
+     width: 3000px;
+    height: 642px;
+    float: left;
+    margin-top:-110px;
+    margin-left:-3955px;
+    box-shadow: 0px 0px 8px 8px black;
+
+
+ }
+ .proj1-laptop{
+    width: 50%;
+    height: 630px;
+    float: left;
+    margin-top:-13px;
+    margin-left:-35px;
+    box-shadow: 0px 0px 8px 8px black;
+
+ }
+ .col4{
+    margin-left:-680px;
+    float: left;
+    margin-top:100px;
+  
+  
+    
+    
+   
+ }
+ .row3{
+    float:left;
+    margin-top:-1050px;
+    width:101%;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px 18px black;
+    font-size:bold;
+ }
+ .lets{
+    margin-left:780px;
+    font-size: 80px;
+    position:absolute;
+    top:4;
+    margin-top:480px;
+ }
+ 
+ .info-box{
+    float: left;
+    font-size: 20px;
+    margin-top: -150px;
+    margin-left:-80px;
+    
+
+ } 
+ 
+ .contact-container {
+    margin-left:300px;
+ }
+ .git{
+    height: 100px;
+    width: 100px;
+    
+    
+ }
+ .git:hover{
+    transform: scale(0.7);
+ }
+ .h6{
+    margin-top:10px;
+    font-size: 30px;
+ }
+ .col_{
+    margin-left:750px;
+ }
+ .col{
+    margin-left:920px;
+    
+ }
+ .skill{
+    margin-left:1500px;
+ }
+ .project{
+    margin-left:1200px;
+ }
+ .con{
+   margin-top:180px;
+   margin-left:500px;
+   text-shadow: 0px 0px 5px 5px black;
+
+ }
+ .p{
+    margin-left:1000px;
+ }
+ .img{
+    width:1000px;
+    height: 1000px;
+ }
+ .h1{
+    margin-left:1000px;
+ }
+ .intro-text{
+    margin-top:280px;
+ }
+ .about-container #about-div-animate{
+    height: 700px;
+    width: 700px;
+    background-color: red;
+    animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+@keyframes pulse {
+    0%, 100% {
+      background-color: rgb(77, 136, 204);
+    }
+    50% {
+      background-color: rgb(233, 184, 94);
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+   50% {
+      transform: translate(1050px, 0);
+    }
+    
+    90% {
+      transform: translate(-1050px, 0);
+    }
+  }
+
+}
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <!-- navbar section -->
+        <section class="navbar-section" id="navbar">
+            <div class="navbar-container container-fluid" id="sticky-navbar">
+                <div class="roW">
+                    <div class="coL">
+                        <a href="#top">HOME</a>
+                        &ensp;
+                        &ensp;
+                        <a href="#about">ABOUT</a>
+                        &ensp;
+                        &ensp;
+                        <a href="#skills">SKILLS</a>
+                        &ensp;
+                        &ensp;
+                        <a href="#projects">PROJECTS</a>
+                        &ensp;
+                        &ensp;
+                        <a href="#contact">Follow_ME</a>
+                        &ensp;
+                        &ensp;
+                        <a href="#contact">CONTACT ME</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- intro section -->
+        <section class="intro-section">
+            <div class="intro-container container-fluid">
+             
+                <div class="profile-holder">
+                    <img class="img" src="pic.jpeg" alt="" height="100%" width="100%">
+                </div>
+                <div class="intro-text">
+                    <h1 class="h1">Helloo, &ensp;I'm &ensp;&ensp;Shiv.</h1>
+                
+                 
+                  
+                    <p class="p">It's lovely seeing you here. Brrr.. It sure is cold today!</p>
+                    <div class="con"> 
+                        <h1 id="condition">27°</h1>
+                        <h2 id="condition">Chennai, India</h2>
+                    </div>
+                    &ensp;
+                    &ensp;
+                </div>
+            </div>
+            &ensp;
+            &ensp;
+        </section>
+        <a class='back-to-top-btn' role='button' aria-label='back to top button'>
+            <button type="button" onclick="topFunction()" id="myBtn" class="btn btn-danger"><h1 >Top</h1></button>
+        </a>
+        <!-- About section -->
+        <section class="about-section">
+            <div class="about-container container-fluid" id="about">
+                <div id="about-div-animate">
+                </div>
+                <div class="about-me-snippet" id="about-me"> 
+                    <h2 class="h2">Wanna get to know me?</h2>
+                    
+                    
+                </div>
+                <div class="row">
+                    <div class="col-">
+                        <div id="swipe-text">
+                            <p>I am a  Developer based  and  engineering graduate passionate about building pixel perfect and intuitive web applications. When I'm not typing my way through lines of code, I like to listening songs.</p>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <!-- skills section -->
+        <section class="skills-section">
+            <div class="skills-container" id="skills">
+             
+                <h2 id="skills-heading" class="skill">Technologies I work with</h2>
+                &ensp;
+                &ensp;
+                &ensp;
+             
+
+                <div class="row">
+                    <div class="col">
+                        <div class="img-holder1">
+                            <img src="HTML1.png" alt="React Logo" width="100%" height="100%">
+                            <p class="p1">HTML 5</p>
+
+                        </div>
+                       
+                        <div class="img-holder2">
+                            <img src="CSS3.png" alt="React Logo" width="100%" height="100%">
+                            <p class="p1">CSS 3</p>
+                        </div>
+                        &ensp;
+                        &ensp;
+                        <div class="img-holder3">
+                            <img src="javascript2.png" alt="React Logo" width="100%" height="100%">
+                            <p  class="p1">Javascript</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section class="projects-section">
+            <div class="projects-container" id="projects">
+             
+                <h2 class="project">Projects under my belt.</h2>
+                &ensp;
+                <div class="row1">
+                    <div class="col1">
+                        <div class="img-holder">
+                            <img class="proj1-laptop" src="Screenshot (1907).png" alt="" height="100%" width="100%">
+                        </div>
+                    </div>
+                    &ensp;
+                    &ensp;
+                    <div class="col2">
+                        <h3 class="L">Landing Page for Student</h3>
+                        <p>Created a pixel-perfect and responsive web design for the mockups landing page.</p>
+                        <p><b>Tech used :</b> HTML5 | CSS3 |</p>
+                        
+                        <a href="https://landingpage0001-git-main-shiv4826.vercel.app/" target="_blank"><button type="button" class="btn btn-dark">Live Project</button></a>
+                        <a href="https://github.com/Shiv4826/myguide.github.io" target="_blank"><button type="button" class="btn btn-dark">GitHub Repo</button></a>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row2">
+                    <div class="col3">
+                        <div class="img-holder">
+                            <img class="proj2-laptop" src="Screenshot (1909).png" alt="" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <h3 class="L">CarCity-HTML/CSS</h3>
+                        <p>A CarCity fully responsive .</p>
+                        <p><b>Tech used :</b> HTML5 & CSS3</p>
+                        
+                        <a href="https://carcity01.vercel.app/" target="_blank"><button type="button" class="btn btn-dark">Live Project</button></a>
+                        <a href="https://github.com/Shiv4826/myguide.github.io" target="_blank"><button type="button" class="btn btn-dark">GitHub Repo</button></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row3">
+                    <div class="">
+                        <h3 class="E">E-Commerce Management-Using SQL</h3>
+                        <p class="D">Designed an e-commerce store by applying principles of object-oriented programming in creating the different features. The store has 3 main users - customer, seller and admin. Used inheritance and polymorphism to achieve a SOLID principles based code design for implementing features of a typical e-commerce store for these users.</p>
+                        <a href="https://skill-lync.com/student-projects/project-1-8120" target="_blank"><button type="button" class="btn1">Skill-lync Repo</button></a>
+                    </div>
+                    <div class="">
+                        <h3 class="S">Scientific Calculator-Using JAVA</h3>
+                        <p class="B">Built a scientific calculator using Java programming language by implementing an object-oriented design. The calculator is built as a command line application and takes inputs from user for any operation they select based on the operation list displayed to them. All inputs, calculations and results are saved in a file named CalculationsHistory.txt.</p>
+                        <a href="https://skill-lync.com/student-projects/project-13115" target="_blank"><button type="button" class="btn1">Skill-lync Repo</button></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+      
+      
+                    
+
+        <!-- contact section -->
+        <section class="contact-section">
+            <div class="contact-container" id="contact">
+                <h2 class="lets">Let's connect!</h2>
+                <div class="row_">
+                    <div class="col_">
+                        <div class="info-box">
+                            <a href="https://github.com/Shiv4826/myguide.github.io" target="_blank">&ensp;<img class="git" src="github1.png" alt="Github Logo" width="100%" height="100%"></a>
+                            &ensp; &ensp; &ensp; &ensp;&ensp; &ensp; &ensp;
+                            &ensp;
+                          <h6 class="h6">  Github</h6>
+                        </div>
+                    
+                        <div class="info-box">
+                            <a href="www.linkedin.com/in/shivam-kumar-3419711b2" target="_blank">    &ensp;<img class="git"  src="linkedin.png" alt="LinkedIn Logo" width="100%" height="100%"></a>
+                            &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;
+                            &ensp;
+                           
+                            <h6 class="h6"> LinkedIn</h6>
+                        </div>
+                       
+                        <div class="info-box">
+                            <a href="https://twitter.com/ShivamKumar" target="_blank">&ensp;<img class="git"  src="twiiter.png" alt="Twitter Logo" width="100%" height="100%"></a>
+                            &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;
+                            &ensp;
+                            <h6 class="h6">Twitter</h6>
+                        </div>
+                        <div class="info-box">
+                            <a href="https://gmail.com" target="_blank">&ensp;<img class="git"  src="mail.png" alt="Mail Logo" width="100%" height="100%"></a>
+                            &ensp; &ensp; &ensp; &ensp;
+                            &ensp;
+                            <h6 class="h6">8076481@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+
+
+
+
+</body>
+</html>
